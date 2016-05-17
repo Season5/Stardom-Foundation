@@ -1,6 +1,6 @@
 /*@import url(https://fonts.googleapis.com/css?family=Raleway);*/
 
-body {
+.p_bg {
     background-image: url(img/pattern.png);
 }
 h1 {
@@ -10,11 +10,10 @@ h1 {
 .thumbnail {
     height: 270px;
 }
-
 .small-6 {
     padding: 3%;
 }
-.fourth{
+.fourth {
     padding-left: 10px;
 }
 
@@ -105,8 +104,6 @@ h1 {
         padding-left: 12px;
     }
 }
-
-
 .large-collapse > .columns {
     padding-left: 12px;
 }
