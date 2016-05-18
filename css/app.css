@@ -165,7 +165,7 @@ nav li .active:hover {
     display: inline-block;
     float: right;
 }
-.card-small a {
+.card-small action a {
     color: #ffab40;
     margin-right: 1.3rem;
     transition: color 0.3s ease;
@@ -209,11 +209,16 @@ h1 {
     text-align: center;
 }
 .img_22 {
-    background-image: url(../img/bath1.jpg);
-    /*
-    -webkit-filter: grayscale(50%);
-    -webkit-filter: brightness(70%);
-*/
+    background-image: url(../img/pad.png);
+}
+.img_23 {
+    background-image: url(../img/pad2.png);
+}
+.img_24 {
+    background-image: url(../img/pad3.png);
+}
+.card-small a {
+    color: black;
 }
 
 /**************************************************/
