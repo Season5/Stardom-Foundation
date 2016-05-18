@@ -91,7 +91,30 @@ nav li .active:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+}
+.about button {
+    border: solid black 1px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-transition: background-color .5s ease-in-out;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 100px;
+}
+.about button a {
+    text-decoration: none;
+    color: black;
+}
+.about button a:hover {
+    color: white;
+}
+.about button:hover {
+    background-color: #E4007D;
+    color: white;
 }
 @media screen and (max-width: 615px) {
     .about p {
@@ -249,27 +272,13 @@ footer .contact {
     color: #fff;
     padding-bottom: 30px;
 }
-.dark-pink button {
-    border: solid white 1px;
-    padding: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    -webkit-transition: background-color .5s ease-in-out;
-    color: white;
-}
-.dark-pink button a {
-    text-decoration: none;
-    color: white;
-}
-.dark-pink button a:hover {
-    color: black;
-}
-.dark-pink button:hover {
-    background-color: white;
-    color: black;
-}
 .dark-pink i {
     margin-left: 15px;
+}
+.dark-pink h5 {
+    font-size: 1.6em;
+    font-weight: 500;
+    padding-top: 100px;
 }
 @media screen and (max-width: 500px) {
     .dark-pink {
