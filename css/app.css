@@ -275,9 +275,10 @@ footer .contact {
 .dark-pink i {
     margin-left: 15px;
 }
-.dark-pink h5 {
+.dark-pink p {
     font-size: 1.6em;
     font-weight: 500;
+    padding-top: 50px;
 }
 @media screen and (max-width: 500px) {
     .dark-pink {
